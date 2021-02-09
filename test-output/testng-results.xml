@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47667" started-at="2021-02-09T17:20:00 IST" finished-at="2021-02-09T17:20:48 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47667" started-at="2021-02-09T17:20:00 IST" finished-at="2021-02-09T17:20:48 IST">
+      <class name="BaseClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:BaseClass@2b6faea6]" name="setUp" is-config="true" duration-ms="11919" started-at="2021-02-09T17:19:48 IST" finished-at="2021-02-09T17:20:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openWebsite()[pri:1, instance:BaseClass@2b6faea6]" name="openWebsite" duration-ms="9836" started-at="2021-02-09T17:20:01 IST" finished-at="2021-02-09T17:20:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="registerSchool()[pri:2, instance:BaseClass@2b6faea6]" name="registerSchool" duration-ms="15611" started-at="2021-02-09T17:20:11 IST" depends-on-methods="BaseClass.openWebsite" finished-at="2021-02-09T17:20:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSchool -->
+        <test-method status="PASS" signature="getOTP()[pri:3, instance:BaseClass@2b6faea6]" name="getOTP" duration-ms="21629" started-at="2021-02-09T17:20:26 IST" depends-on-methods="BaseClass.registerSchool" finished-at="2021-02-09T17:20:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOTP -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BaseClass@2b6faea6]" name="tearDown" is-config="true" duration-ms="2033" started-at="2021-02-09T17:20:48 IST" finished-at="2021-02-09T17:20:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BaseClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
