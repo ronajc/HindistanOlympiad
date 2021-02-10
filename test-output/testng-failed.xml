@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BaseClass">
+      <class name="com.ht_olympiad.testcases.BaseClass">
         <methods>
           <include name="setUp"/>
           <include name="registerSchool"/>
           <include name="tearDown"/>
           <include name="openWebsite"/>
+          <include name="getOTP"/>
         </methods>
-      </class> <!-- BaseClass -->
+      </class> <!-- com.ht_olympiad.testcases.BaseClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
