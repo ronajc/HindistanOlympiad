@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="HT Olympiad">
+
+<!-- 
+<listeners>
+<listener class-name="com.inetBanking.utilities.Reporting"></listener>
+</listeners>
+ -->
+
+<test name="Hindustan Olympiad">
+<parameter name="broswer" value="chrome"/>
+<classes>
+   <class name="com.ht_olympiad.testcases.registerSchool"></class> 
+   <class name="com.ht_olympiad.testcases.registerStudent"></class>
+</classes>
+</test>
+
+</suite>
